@@ -211,6 +211,11 @@ public class Runigram {
 					morphed[i][j] = blend(source[i][j], scaledTarget[i][j], alpha);
 				}
 			}
+			setCanvas(morphed);
+        
+
+			display(morphed);
+	 
 		}
 	}
 	/** Creates a canvas for the given image. */
